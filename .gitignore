@@ -1,0 +1,53 @@
+# ========================
+# OSINT Investigation Repo
+# ========================
+
+# --- Secrets & Credentials ---
+.env
+.env.*
+*.key
+*.pem
+credentials.json
+secrets.json
+
+# --- Raw Investigation Data ---
+# NEVER commit raw data or personal information
+/data/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+venv/
+.venv/
+env/
+.python-version
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- OS Files ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# --- Tool Caches ---
+.playwright/
+.cache/
+
+# --- Large / Binary Files ---
+*.zip
+*.tar.gz
+*.7z
+*.sqlite
+*.db
